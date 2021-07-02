@@ -16,3 +16,12 @@ The images were resized using the resized-data.py and stored as follows
 the 9000 images from 1,2,3,5 and the second half of 4 are stored as training data
 the 1868 images from 6 and the first part of 4 were stored as test data. Both train and test
 were compressed into the resized.7z file
+
+# Code
+
+1. keras_cifar10.ipynb example of image classification using CNN
+1. keras_cifar10-generator.ipynb the same as the above but the images are loaded on the fly
+1. malware-resized-yuan.ipynb malware classification of resized images which are assume to be on local disk
+1. malware-yuan-kaggle.ipynb same as the above but the resized.7z is download from the google drive
+1. malware-yuan.ipynb resizes images on the fly 
+1. malware.ipynb old attempt
