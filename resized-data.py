@@ -11,7 +11,7 @@ def conv(x):
     else:
         return int(x,16)
 
-data=pandas.read_csv("data/data.4.csv",header=None)
+data=pandas.read_csv("data/data.5.csv",header=None)
 names=data.iloc[:,0].to_numpy()
 classes=data.iloc[:,1].to_numpy()
 dict={1:"Ramnit",2:"Lollipop",3:"Kelihos_ver3",4:"Vundo",5:"Simda",6:"Tracur",7:"Kelihos_ver1",8:"Obfuscator",9:"Gatak"}
